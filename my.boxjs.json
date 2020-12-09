@@ -7,7 +7,7 @@
   "apps": [{
     "id": "QQreader",
     "name": "企鹅读书",
-    "keys": ["qqreadbd", "qqreadtimeurl", "qqreadtimehd", "qqreadbd2", "qqreadtimeurl2", "qqreadtimehd2"],
+    "keys": ["qqreadbd", "qqreadtimeurl", "qqreadtimehd", "qqreadbd21", "qqreadtimeurl21", "qqreadtimehd21"],
     "author": "@my",
     "settings": [{
         "id": "qeSuffix1",
