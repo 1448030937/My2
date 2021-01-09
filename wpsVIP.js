@@ -1,4 +1,5 @@
 /*
+^https?:\/\/account\.wps\.cn\/api\/users url script-response-body https://raw.githubusercontent.com/1448030937/My2/main/wpsVIP.js
 [MITM]
 hostname = account.wps.cn
 */
