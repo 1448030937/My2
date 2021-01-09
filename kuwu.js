@@ -1,3 +1,7 @@
+/*
+http://vip1.kuwo.cn/vip/v2/user/vip url script-response-body https://raw.githubusercontent.com/1448030937/My2/main/kuwu.js
+^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=1
+*/
 var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
