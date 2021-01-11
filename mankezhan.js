@@ -1,5 +1,5 @@
 /*
-
+https://*.mkzcdn.com url script-response-body https://raw.githubusercontent.com/1448030937/My2/main/mankezhan.js
 */
 var body = $response.body;
 var obj = JSON.parse(body);
