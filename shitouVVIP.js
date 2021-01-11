@@ -7,10 +7,8 @@ var body = $response.body;
 
 var obj = JSON.parse(body);
 
-obj.data = {
-        "vvip" = "1";
-        "vvip_deadline" = "1835312949000";
-}
+obj.data["vvip"] = "1";
+obj.data["vvip_deadline"] = "1835312949000";
 body = JSON.stringify(obj);
 
 $done({body});
