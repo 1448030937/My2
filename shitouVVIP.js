@@ -4,16 +4,12 @@ https://app.qdstt.cn/api/apiClient/index url script-response-body https://raw.gi
 
 
 var body = $response.body;
-var url = $request.url;
+
 var obj = JSON.parse(body);
 
-const vip = '/api/apiClient/index';
+obj.data["vvip"] = "1";
+obj.data["vvip_deadline"] = "1835312949000";
 
-if (url.indexOf(vip) != -1) {
-	obj.data["vvip"] = "1";
-	obj.data["vvip_deadline"] = "1835312949000";
-	//obj.data["vip"] = "1";
-	body = JSON.stringify(obj);
-}
+body = JSON.stringify(obj);
 
 $done({body});
