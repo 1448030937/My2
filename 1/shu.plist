@@ -33,13 +33,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.pixelcyber.dake.thor</string>
+				<string>com.pixelcyber.anubis</string>
 				<key>bundle-version</key>
 				<string>1.0.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>XXX App download</string>
+				<string>XXXX App download</string>
 			</dict>
 		</dict>
 	</array>
